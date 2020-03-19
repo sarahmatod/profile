@@ -1,0 +1,80 @@
+body {
+  background-color: #ecfbfc;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'Chivo', sans-serif;
+
+}
+
+h2 {
+  font-size: 16px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover {
+  color: gray;
+
+}
+
+#main {
+  background-color: white;
+  padding: 50px;
+  padding-bottom: 25px;
+  margin: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(200, 200, 200, 0.2)
+
+}
+
+#footer {
+  margin-left: 60px;
+}
+
+.inline li {
+  display: inline-block;
+  padding: 0px 10px;
+  padding-left: 0px;
+}
+
+.inline {
+  padding-left: 0px;
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read ex 500*/
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read  ex 700*/
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read ex 900 */
+  .container {
+    width: 700px;
+  }
+}
